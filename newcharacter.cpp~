@@ -198,16 +198,6 @@ bool player::create(game *g, character_type type, std::string tempname)
 End of cheatery */
  }
 
-{
-add_bionic(bionic_id(bio_carbon));    // Armor Cheat
-add_bionic(bionic_id(bio_storage));    // Volume-Storage Cheat
-//add_bionic(bionic_id(bio_armor_head));  // Armor Cheat
-//add_bionic(bionic_id(bio_armor_torso));  // Armor Cheat
-//add_bionic(bionic_id(bio_armor_arms));  // Armor Cheat
-//add_bionic(bionic_id(bio_armor_legs));  // Armor Cheat
-}
- 
-
  if (has_trait(PF_MARTIAL_ARTS)) {
   itype_id ma_type;
   do {
